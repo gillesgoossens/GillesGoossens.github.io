@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--knop1-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   
+    body {
+        background-color: #724F51
+    }
+
+.button {
+  border-radius: 4px;
+  background-color: #ecf086;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 26px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.75s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.75s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.75s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+    
+    
+.btn {
+  background-color: #000000;
+  border: none;
+  color: #ecf086;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ecf086;
+  color: black;
+}
+</style>
+<body>
+<a href="index.html"> <button class="button"><span>Index.html</span></button> </a> 
+<a href="images.html"> <button class="btn">De foto's</button> </a>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+</html>
+   
